@@ -26,7 +26,7 @@ and the following audio codecs:
 inside the following container formats:
 
 * WebM
-* Matroska
+* Matroska (MKV)
 * Ogg
 * AVI
 * Various kinds of MPEG stream.
@@ -50,8 +50,8 @@ a side-by-side mask from a mov file with an alpha channel. ::
 Movies are supported on the Web platform, but the list of supported codecs differs
 from browser to browser. For cross-browser compatibility (especially to support Safari),
 the most efficient combination is H.264 with MP3 (or AAC) in a MP4 file. However, Ren'Py
-does not support H.264 decoding (or AAC), so this combination can only work on the
-Web platform.
+does not support H.264 decoding (or AAC) on desktop or mobile, so this combination can
+only work on the Web platform.
 
 
 Fullscreen Movies
